@@ -56,10 +56,6 @@ int* bm_tabGS_slow( int* tem, int tem_len )
 {
 	int* tabGS = new int[tem_len+1];
 
-	for( int i=0; i<tem_len+1; i++ )
-		tabGS[i] = -5;
-
-
 	for( int suff_len=0; suff_len<=tem_len; suff_len++ )
 	{
 		int pre_suff = -1;
