@@ -8,12 +8,12 @@
 
 void test()
 {
-	//test_abc();
+	test_abc();
 	test_gen_gs_table();
-	/*test_bm_long_string(false, false);
+	test_bm_long_string(false, false);
 	test_bm_long_string(true, false);
 	test_bm_long_string(false, true);
-	test_bm_long_string(true, true);*/
+	test_bm_long_string(true, true);
 	/*test_bm_all(false, false);
 	test_bm_all(true, false);
 	test_bm_all(false, true);
